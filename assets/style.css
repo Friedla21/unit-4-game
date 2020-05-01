@@ -1,0 +1,49 @@
+#GemPhoto {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .GemPhoto4 {
+    width: 175px;
+    height: 135px;
+    margin: 5%;
+
+  }
+  
+  body {
+    background-color: whitesmoke;
+  }
+  
+  .container {
+    background-color: rgb(234, 235, 238);
+    margin: 5%;
+  }
+
+  /* #crystalcollector {
+    background-color: darkgoldenrod;
+    margin: 15%;
+    text-align: left;
+  } */
+
+  .instructions {
+      background-color:orange;
+      font-size: 20px;
+      margin: 3%;
+      padding-left: 1%;
+      
+
+  }
+
+
+  .score {
+    background-color: teal;
+    font-size: 20px;
+    margin: 3%;
+    padding-left: 1%;
+    
+
+
+
+
+
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- 2nd stylesheet for customization-->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Crystal Collector!</title>
+</head>
+
+<body>
+    <div class="container border border-success rounded">
+        <!-- center the name of the game  -->
+        <div class="row">
+
+
+            <div class="col-md-4">
+            </div>
+            <!-- <div id = "crystalcollector">
+
+            </div> -->
+            <div class="col-md-4">
+                <h1>Crystal Collector</h1>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+    <br>
+    <!-- start the next row w/ instructions on the left for the game  -->
+    <!-- <div class = "instructions"> -->
+    <div class="row">
+        <div class="col-md-10 border instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <p>You win the game my matching your total score to the random number but you will lose if your score
+                goes
+                above the number!</p>
+            <p>You won't know the value of each crystal unless you click on it..</p>
+            <p>Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+        <!-- <div class="col-md-5">
+                <img id="GemPhoto" src="assets/images/GemPhoto.jpg" alt="Image of Gems">
+            </div> -->
+        <!-- </div> -->
+    </div>
+
+
+
+
+    <!-- position to the left of wins/losses  -->
+
+    <div class="row">
+        <div class="score">
+            <div class="col-md-6">
+                <div>
+                    <h2>The number to hit is: <span id="targetNumber"></span></h2>
+                </div>
+                <!-- this is where the total score will go..  -->
+                <div>
+                    <h2>Your total score is: <span id="currentScore"></span></h2>
+                </div>
+
+            </div>
+
+            <!-- position to the right of the number to hit  -->
+            <div class="col-md-6">
+                <div>
+                    <h3>Wins: <span id="wins"></span></h3>
+                    <h3>Losses: <span id="losses"></span></h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- this is where the 4 diamonds will go  -->
+            <div>
+                <img class="col-md-3 GemPhoto4" id="gem1" src="assets/images/diamond.jpeg" alt="Diamond">
+                <img class="col-md-3 GemPhoto4" id="gem2" src="assets/images/emerald.jpeg" alt="Emerald">
+                <img class="col-md-3 GemPhoto4" id="gem3" src="assets/images/pinkRuby.jpeg" alt="Pink Ruby">
+                <img class="col-md-3 GemPhoto4" id="gem4" src="assets/images/redRuby.jpeg" alt="Red Ruby">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--link to jQuery Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- link to js sheet  -->
+    <script src="assets/game.js"></script>
+</body>
+
+</html>
